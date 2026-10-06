@@ -299,6 +299,41 @@ h3{
     box-shadow: 1px 2px 6px 1px  rgb(160, 158, 158);
     top: -25px;
 }
-.galerie1 p{
-    color: rgb(158, 156, 156);
-} 
+p{
+    color: rgb(131, 128, 128);
+}
+.main-card4{
+    padding: 150px;
+}
+.name{
+    display: flex;
+    gap: 30px;
+}
+.img{
+    padding-bottom: 20px;
+}
+.galerie2{
+    height: 350px;
+    width: 100%;
+    max-width: 220px;
+    background-color: rgb(233, 231, 231);
+    border-radius: 20px;
+    padding: relative;
+    padding-top: 20px;
+    padding: 10px;
+}
+.main-img img{
+    position: absolute;
+    border-radius: 30px;
+    left: 100px;
+    padding-top: 20px;
+}
+.app{
+    padding-left: 160px;
+    padding-top: 60px;
+}
+.card4{
+    display: grid;
+    /* grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px; */
+}
