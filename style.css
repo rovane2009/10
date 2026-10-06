@@ -268,6 +268,7 @@ h3{
 }
 .card3-main{
     background-color:  rgb(233, 231, 231);
+    padding-bottom: 30px;
 }
 .card3{
     display: grid;
@@ -307,7 +308,8 @@ p{
 }
 .name{
     display: flex;
-    gap: 30px;
+    /* gap: 40px; */
+    justify-content: space-between;
 }
 .img{
     padding-bottom: 20px;
@@ -318,22 +320,24 @@ p{
     max-width: 220px;
     background-color: rgb(233, 231, 231);
     border-radius: 20px;
-    padding: relative;
+    position: relative;
     padding-top: 20px;
     padding: 10px;
 }
 .main-img img{
     position: absolute;
     border-radius: 30px;
-    left: 100px;
+    right: 100px;
     padding-top: 20px;
 }
 .app{
-    padding-left: 160px;
+    padding-left: 100px;
+    padding-right: 10px;
     padding-top: 60px;
 }
 .card4{
     display: grid;
-    /* grid-template-columns: 1fr 1fr 1fr;
-    gap: 30px; */
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 40px;
+    padding-left: 220px;
 }
