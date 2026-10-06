@@ -148,21 +148,25 @@ h3{
     background-color: rgb(14, 165, 211);
     border: 1px solid rgb(187, 181, 181);
 }
+.card2{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+}
 .galerie{
-    height: 530px;
+    height: 560px;
     width: 100%;
-    max-width: 300px;
+    max-width: 400px;
     border: 1px solid black;
-    text-align: center;
 }
 .galerie img{
     clip-path:polygon(0 0, 100% 0, 100% 65%, 0 100%);
-    color: rgb(134, 80, 80);
+    width: 400px;
 }
-.image{
+.image1{
     position: relative;
 }
-.image::after{
+.image1::after{
     content: "";
     inset: 0;
     background-color: rgb(243, 8, 8);
@@ -170,7 +174,29 @@ h3{
     opacity: 0.4;
     clip-path:polygon(0 0, 100% 0, 100% 64%, 0 99%);
 }
-.galerie hr{
+.image2{
+     position: relative;
+}
+.image2::after{
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-color: rgb(48, 87, 68);
+    opacity: 0.5;
+    clip-path:polygon(0 0, 100% 0, 100% 64%, 0 99%);
+}
+.image3{
+    position: relative;
+}
+.image3::after{
+    content: "";
+    background-color: rgb(21, 194, 224);
+    opacity: 0.5;
+    inset: 0;
+    position: absolute;
+    clip-path:polygon(0 0, 100% 0, 100% 64%, 0 99%);
+}
+.texte1 hr{
     background-color: rgb(224, 23, 23);
     height: 4px;
     width: 65px;
@@ -178,10 +204,88 @@ h3{
 .galerie p{
      color: rgb(122, 118, 118);
 }
-.btn{
+.texte1 .btn{
     border: 3px solid red;
     width: 100%;
+    text-align: center;
     max-width: 100px;
     border-radius: 10px;
-    padding: 5px;
+    padding: 10px;
+    color: red;
+    font-weight: bolder;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.texte2 hr{
+     background-color: rgb(48, 87, 68);
+    height: 4px;
+    width: 65px;
+}
+.texte2 .btn{
+    border: 3px solid rgb(48, 87, 68);
+    width: 100%;
+    text-align: center;
+    max-width: 100px;
+    border-radius: 10px;
+    padding: 10px;
+    color: rgb(48, 87, 68);
+    font-weight: bolder;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.texte3 hr{
+     background-color: rgb(21, 194, 224);
+    height: 4px;
+    width: 65px;
+}
+.texte3 .btn{
+    border: 3px solid rgb(21, 194, 224);
+    width: 100%;
+    text-align: center;
+    max-width: 100px;
+    border-radius: 10px;
+    padding: 10px;
+    color: rgb(21, 194, 224);
+    font-weight: bolder;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.texte1{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    align-items: center;
+}
+.texte2{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    align-items: center;
+}
+.texte3{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    align-items: center;
+}
+.card3{
+    background-color:  rgb(233, 231, 231);
+}
+
+.etoile1{
+    display: flex;
+    align-items: center;
+}
+.galerie1{
+    background-color: white;
+    height: 300px;
+    width: 100%;
+    max-width: 300px;
+    position: absolute;
+}
+.galerie1 img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    position: relative;
+    right: -110px;
+    top: -10px;
 }
