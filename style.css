@@ -1,27 +1,34 @@
-body{
+body {
     overflow-x: hidden;
 }
-header,nav,ul{
+
+header,
+nav,
+ul {
     display: flex;
     padding-left: 420px;
     align-items: center;
 }
-header{
+
+header {
     background-color: white;
     box-shadow: -1px 1px 6px 0;
     width: 100%;
     height: 100px;
 }
-header ul{
+
+header ul {
     list-style-type: none;
     gap: 50px;
 }
-ul a{
+
+ul a {
     text-decoration: none;
     color: rgb(129, 122, 122);
     font-size: 1.25rem;
 }
-.hero-page{
+
+.hero-page {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -31,39 +38,46 @@ ul a{
     max-width: 3000px;
     padding: 30px;
 }
-.hero-left{
+
+.hero-left {
     width: 100%;
     max-width: 700px;
     font-size: 2rem;
     padding-left: 100px;
 }
-.hero-left p{
+
+.hero-left p {
     color: rgb(114, 111, 111);
 }
-.hero-right img{
+
+.hero-right img {
     width: 1000px;
 }
-.mini-hero{
+
+.mini-hero {
     background-color: rgb(233, 231, 231);
     height: 100px;
     clip-path: polygon(0 0, 100% 0, 0 100%, 0 100%);
 
 }
-.article{
+
+.article {
     display: flex;
     align-items: center;
     gap: 20px;
     justify-content: center;
     padding: 100px;
 }
-.mark1{
+
+.mark1 {
     width: 15px;
     height: 15px;
     border-radius: 50%;
     background-color: rgb(14, 165, 211);
     border: 1px solid rgb(187, 181, 181);
 }
-h2{
+
+h2 {
     width: 250px;
     height: 40px;
     border: 4px solid black;
@@ -72,13 +86,16 @@ h2{
     padding: 15px;
     font-size: 2rem;
 }
-.test{
+
+.test {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 30px;
-    padding: 30px;
+    padding-left: 100px;
+    padding-bottom: 70px;
 }
-.card{
+
+.card {
     height: 450px;
     width: 100%;
     max-width: 300px;
@@ -86,125 +103,147 @@ h2{
     border-radius: 20px;
     box-shadow: 1px 1px 6px 0;
 }
-.card img{
+
+.card img {
     height: 200px;
     width: 100%;
     max-width: 300px;
     border-radius: 20px;
 }
-.texte{
+
+.texte {
     padding: 10px;
     border-bottom: 1px solid black;
 }
+
 .texte p {
     color: rgb(122, 118, 118);
 }
-h3{
+
+h3 {
     font-size: 1.5rem;
     margin: 0;
 }
-.button{
+
+.button {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-#button{
+#button {
     color: rgb(13, 178, 207);
     padding: 5px;
 }
-.hero-section{
+
+.hero-section {
     background-color: rgb(233, 231, 231);
-    justify-content:  center;
+    justify-content: center;
     padding: 50px;
 }
-.card1{
+
+.card1 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 30px;
     padding-left: 190px;
 }
-.cadre{
+
+.cadre {
     height: 350px;
     width: 100%;
     max-width: 340px;
     background-color: white;
 }
-.card1 img{
+
+.card1 img {
     padding: 20px;
 }
 
-.galery{
+.galery {
     display: flex;
     align-items: center;
     gap: 20px;
     justify-content: center;
     padding: 100px;
 }
-.mark1{
+
+.mark1 {
     width: 15px;
     height: 15px;
     border-radius: 50%;
     background-color: rgb(14, 165, 211);
     border: 1px solid rgb(187, 181, 181);
 }
-.card2{
+
+.card2 {
     display: flex;
     justify-content: space-between;
     padding: 50px;
 }
-.galerie{
+
+.galerie {
     height: 560px;
     width: 100%;
     max-width: 400px;
     border: 1px solid black;
 }
-.galerie img{
-    clip-path:polygon(0 0, 100% 0, 100% 65%, 0 100%);
+
+.galerie img {
+    clip-path: polygon(0 0, 100% 0, 100% 65%, 0 100%);
     width: 400px;
 }
-.image1{
+
+.image1 {
     position: relative;
 }
-.image1::after{
+
+.image1::after {
     content: "";
     inset: 0;
     background-color: rgb(243, 8, 8);
     position: absolute;
     opacity: 0.4;
-    clip-path:polygon(0 0, 100% 0, 100% 64%, 0 99%);
+    clip-path: polygon(0 0, 100% 0, 100% 64%, 0 99%);
 }
-.image2{
-     position: relative;
+
+.image2 {
+    position: relative;
 }
-.image2::after{
+
+.image2::after {
     content: "";
     position: absolute;
     inset: 0;
     background-color: rgb(48, 87, 68);
     opacity: 0.5;
-    clip-path:polygon(0 0, 100% 0, 100% 64%, 0 99%);
+    clip-path: polygon(0 0, 100% 0, 100% 64%, 0 99%);
 }
-.image3{
+
+.image3 {
     position: relative;
 }
-.image3::after{
+
+.image3::after {
     content: "";
     background-color: rgb(21, 194, 224);
     opacity: 0.5;
     inset: 0;
     position: absolute;
-    clip-path:polygon(0 0, 100% 0, 100% 64%, 0 99%);
+    clip-path: polygon(0 0, 100% 0, 100% 64%, 0 99%);
 }
-.texte1 hr{
+
+.texte1 hr {
     background-color: rgb(224, 23, 23);
     height: 4px;
     width: 65px;
 }
-.galerie p{
-     color: rgb(122, 118, 118);
+
+.galerie p {
+    color: rgb(122, 118, 118);
 }
-.texte1 .btn{
+
+.texte1 .btn {
     border: 3px solid red;
     width: 100%;
     text-align: center;
@@ -215,12 +254,14 @@ h3{
     font-weight: bolder;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-.texte2 hr{
-     background-color: rgb(48, 87, 68);
+
+.texte2 hr {
+    background-color: rgb(48, 87, 68);
     height: 4px;
     width: 65px;
 }
-.texte2 .btn{
+
+.texte2 .btn {
     border: 3px solid rgb(48, 87, 68);
     width: 100%;
     text-align: center;
@@ -231,12 +272,14 @@ h3{
     font-weight: bolder;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-.texte3 hr{
-     background-color: rgb(21, 194, 224);
+
+.texte3 hr {
+    background-color: rgb(21, 194, 224);
     height: 4px;
     width: 65px;
 }
-.texte3 .btn{
+
+.texte3 .btn {
     border: 3px solid rgb(21, 194, 224);
     width: 100%;
     text-align: center;
@@ -248,41 +291,46 @@ h3{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-.texte1{
+.texte1 {
     display: flex;
     flex-direction: column;
     padding: 10px;
     align-items: center;
 }
-.texte2{
+
+.texte2 {
     display: flex;
     flex-direction: column;
     padding: 10px;
     align-items: center;
 }
-.texte3{
+
+.texte3 {
     display: flex;
     flex-direction: column;
     padding: 10px;
     align-items: center;
 }
-.card3-main{
-    background-color:  rgb(233, 231, 231);
+
+.card3-main {
+    background-color: rgb(233, 231, 231);
     padding-bottom: 30px;
 }
-.card3{
+
+.card3 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 20px;
-     padding-left: 220px;
+    padding-left: 220px;
 }
 
-.etoile1{
+.etoile1 {
     display: flex;
     align-items: center;
     gap: 3px;
 }
-.galerie1{
+
+.galerie1 {
     background-color: white;
     height: 120px;
     width: 100%;
@@ -291,30 +339,31 @@ h3{
     padding: 20px;
     border-radius: 10px;
 }
-.galerie1 img{
+
+.galerie1 img {
     height: 50px;
     width: 50px;
     border-radius: 50%;
     position: absolute;
     right: -2px;
-    box-shadow: 1px 2px 6px 1px  rgb(160, 158, 158);
+    box-shadow: 1px 2px 6px 1px rgb(160, 158, 158);
     top: -25px;
 }
-p{
+
+p {
     color: rgb(131, 128, 128);
 }
-.main-card4{
-    padding: 150px;
-}
-.name{
+
+.name {
     display: flex;
-    /* gap: 40px; */
     justify-content: space-between;
 }
-.img{
+
+.img {
     padding-bottom: 20px;
 }
-.galerie2{
+
+.galerie2 {
     height: 350px;
     width: 100%;
     max-width: 220px;
@@ -324,20 +373,141 @@ p{
     padding-top: 20px;
     padding: 10px;
 }
-.main-img img{
+
+.main-img img {
     position: absolute;
     border-radius: 30px;
     right: 100px;
     padding-top: 20px;
 }
-.app{
+
+.app {
     padding-left: 100px;
     padding-right: 10px;
     padding-top: 60px;
 }
-.card4{
+
+.card4 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 40px;
     padding-left: 220px;
+    padding-bottom: 70px;
+}
+
+.main-card5 {
+    background-color: rgb(233, 231, 231);
+    padding-left: 60px;
+}
+.card5{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+    justify-content: center;
+    padding-left: 210px;
+    padding-bottom: 70px;
+}
+.galerie3 {
+    width: 100%;
+    max-width: 300px;
+    text-align: center;
+    background-color: white;
+    height: auto;
+    box-shadow: 1px 1px 6px 0;
+    padding-top: 20px;
+}
+
+.detail {
+    background-color: rgb(233, 231, 231);
+    width: 100%;
+    height: 36px;
+}
+.gris {
+    position: relative;
+    width: 100%;
+    max-width: 160px;
+    clip-path: polygon(0 0, 80% 0, 72% 100%, 0 100%);
+    height: 30px;
+    background-color: rgb(121, 116, 116);
+    padding-top: 5px;
+}
+
+.bleu {
+    width: 100%;
+    max-width: 80px;
+    clip-path: polygon(0 0, 70% 0, 60% 100%, 0 100%);
+    height: 30px;
+    text-align: center;
+    padding-right: 50px;
+    padding-top: 5px;
+    background-color: rgb(0, 195, 255);
+    position: absolute;
+    z-index: 1;
+}
+.card6{
+    padding-right: 30px;
+}
+.galerie4{
+   display: grid; 
+   grid-template-columns: 40% 60%;
+   padding-bottom: 100px;
+   
+}
+.blue1{
+    height: 30px;
+    width: 100%;
+    max-width: 54%;
+    background-color: rgb(47, 169, 250);
+    position: absolute;
+}
+.blue2{
+     height: 30px;
+    width: 100%;
+    max-width: 56%;
+    background-color: rgb(47, 169, 250);
+    position: absolute;
+}
+.blue3{
+     height: 30px;
+    width: 100%;
+    max-width: 30%;
+    background-color: rgb(47, 169, 250);
+    position: absolute;
+}
+.blue4{
+     height: 30px;
+    width: 100%;
+    max-width: 37%;
+    background-color: rgb(47, 169, 250);
+    position: absolute;
+}
+.color2{
+    height: 30px;
+    width: 100%;
+    max-width: 100%;
+    background-color: rgb(233, 231, 231);
+    position: relative;
+    z-index: -1;
+}
+.langage{
+    display: flex;
+    justify-content: space-between;
+}
+.btn{
+    font-size: 1.3rem;
+    font-weight: bolder;
+    color: rgb(47, 169, 250);
+    transform: translateY(15px);
+    text-align: center;
+    width: 100%;
+    max-width: 50px;
+    height: 30px;
+    border: 1px solid rgb(189, 184, 184);
+    border-radius: 5px;
+}
+.analyse{
+    display: flex;
+    gap: 30px;
+    width: 100%;
+    max-width: 500px;
 }
