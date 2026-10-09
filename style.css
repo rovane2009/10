@@ -532,10 +532,12 @@ p {
 .analyse-right{
     padding-top: 20px;
 }
+.card7{
+    padding-bottom: 70px;
+}
 .galerie6{
     display: flex;
     gap: 200px;
-    padding-bottom: 70px;
     align-items: center;
     justify-content: center;
 }
